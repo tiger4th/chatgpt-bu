@@ -1,5 +1,5 @@
-hatebu
+chatgpt-bu
 ======
 
-はてぶ新聞  
-http://tiger4th.com/hatebu/
+ChatGPT部新聞  
+https://tiger4th.com/chatgpt-bu/
