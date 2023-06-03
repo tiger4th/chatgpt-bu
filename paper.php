@@ -20,10 +20,10 @@
 <p><?php if(isset($date)){ ?><?php echo $date; ?><?php } ?></p>
 <?php if(isset($date)){ ?></a><?php } ?>
 <br />
+<br />
 
 <?php if($device==='pc'){ ?>
-<script type="text/javascript" charset="utf-8" src="http://tenki.jp/blog/script/parts/forecast/?type=top&color=0&size=small"></script>
-<br />
+<iframe src="https://www.sunny-spot.net/get_fcst/parts_fcst.php?ID=4410&CL=BLACK" width="160" height="360" hspace="0" vspace="0" marginheight="0" marginwidth="0" frameborder="0" scrolling=no></iframe>
 <?php } ?>
 </div>
 
