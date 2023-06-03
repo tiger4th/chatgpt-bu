@@ -1,64 +1,63 @@
 <script type="text/javascript" src="./js/h2v-min.js" charset="utf-8"></script>
 <script type="text/javascript">
-var params ={
-'rotate_0' :{'fontsize':'14px','pagewidth':'800px','chars':25,'lineInterval':0.3,'auto':false,'recovery':true,'showcredit':false,'bar':false,},
-'rotate_1' :{'fontsize':'14px','pagewidth':'800px','chars':25,'lineInterval':0.3,'auto':false,'recovery':true,'showcredit':false,'bar':false,},
-'rotate_2' :{'fontsize':'14px','pagewidth':'800px','chars':25,'lineInterval':0.3,'auto':false,'recovery':true,'showcredit':false,'bar':false,},
-'rotate_3' :{'fontsize':'14px','pagewidth':'800px','chars':25,'lineInterval':0.3,'auto':false,'recovery':true,'showcredit':false,'bar':false,},
-'rotate_4' :{'fontsize':'14px','pagewidth':'800px','chars':25,'lineInterval':0.3,'auto':false,'recovery':true,'showcredit':false,'bar':false,},
-'rotate_5' :{'fontsize':'14px','pagewidth':'800px','chars':25,'lineInterval':0.3,'auto':false,'recovery':true,'showcredit':false,'bar':false,},
-'rotate_6' :{'fontsize':'14px','pagewidth':'800px','chars':25,'lineInterval':0.3,'auto':false,'recovery':true,'showcredit':false,'bar':false,},
-'rotate_7' :{'fontsize':'14px','pagewidth':'800px','chars':25,'lineInterval':0.3,'auto':false,'recovery':true,'showcredit':false,'bar':false,},
-'rotate_8' :{'fontsize':'14px','pagewidth':'800px','chars':25,'lineInterval':0.3,'auto':false,'recovery':true,'showcredit':false,'bar':false,},
-'rotate_9' :{'fontsize':'14px','pagewidth':'800px','chars':25,'lineInterval':0.3,'auto':false,'recovery':true,'showcredit':false,'bar':false,},
-'rotate_10':{'fontsize':'14px','pagewidth':'800px','chars':25,'lineInterval':0.3,'auto':false,'recovery':true,'showcredit':false,'bar':false,},
-'rotate_11':{'fontsize':'14px','pagewidth':'800px','chars':25,'lineInterval':0.3,'auto':false,'recovery':true,'showcredit':false,'bar':false,},
-'rotate_99':{'fontsize':'14px','pagewidth':'800px','chars':25,'lineInterval':0.3,'auto':true, 'recovery':true,'showcredit':false,'bar':false,},
+var params = {
+  'rotate_99':{
+    'fontsize': '14px',
+    'chars': 25,
+    'lineInterval': 0.3,
+    'pagewidth': '800px',
+    'fontSet': 'mincho',
+    'auto': true,
+    'showcredit': false,
+    'bar': false,
+    'multiCols': true,
+    'splash': false
+  },
 }
 
 h2vconvert.init(params);
 
 function rotate(page){
 if (page=="button") {
-	if(document.getElementById("vertical").value==1){
-		document.getElementById("vertical").value=0;
-	}else{
-		document.getElementById("vertical").value=1;
-	}
+  if(document.getElementById("vertical").value==1){
+    document.getElementById("vertical").value=0;
+  }else{
+    document.getElementById("vertical").value=1;
+  }
 }
 
 if (page=="button") {
-	hash = location.hash;
-	hash = hash.replace("#", "");
+  hash = location.hash;
+  hash = hash.replace("#", "");
 }else{
-	hash = page;
+  hash = page;
 }
 
 if(document.getElementById("vertical").value!=document.getElementById("state_"+hash).value){
-	h2vconvert.switcher('rotate_'+document.getElementById("code_"+hash).value);
-	document.getElementById("state_"+hash).value=document.getElementById("vertical").value;
+  h2vconvert.switcher('rotate_'+document.getElementById("code_"+hash).value);
+  document.getElementById("state_"+hash).value=document.getElementById("vertical").value;
 }
 }
 
 <?php $list_j = join(",",$list); ?>
 function current(val){
 if (val=="top") {
-	document.getElementById("link-top").className="current";
+  document.getElementById("link-top").className="current";
 }else{
-	document.getElementById("link-top").className="";
+  document.getElementById("link-top").className="";
 }
 
 var list_j = "<?php echo $list_j; ?>";
 var list = list_j.split(",");
 
 for (var i in list){
-	if (i == '_reduce') {break;}
-	
-	if (list[i]==val) {
-		document.getElementById("link-"+list[i]).className="current";
-	}else{
-	  	document.getElementById("link-"+list[i]).className="";
-	}
+  if (i == '_reduce') {break;}
+  
+  if (list[i]==val) {
+    document.getElementById("link-"+list[i]).className="current";
+  }else{
+    document.getElementById("link-"+list[i]).className="";
+  }
 }
 }
 </script>
