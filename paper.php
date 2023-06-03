@@ -10,7 +10,6 @@
 
 <div id="box">
 
-<?php if($page=="top"){ ?>
 <div id="right">
 <h1><img src="./image/logo.gif" alt="はてぶ新聞"></h1>
 <br /><br />
@@ -30,7 +29,6 @@
 
 <div id="left">
 <div id="rotate_99">
-<h2>記事</h2>
 <?php $i = 0; ?>
 <?php foreach ($text["all"] as $value) { ?>
 <p class='article'>
@@ -46,28 +44,8 @@
 <input type="hidden" id="state_top" value="1">
 <input type="hidden" id="code_top" value="99">
 
-<?php }else{ ?>
-<div id="center">
-<div id="rotate_<?php echo array_search($page, $list); ?>">
-<h2><?php echo $long_name[array_search($page, $list)]; ?></h2>
-<br />
-<?php foreach ($text[$page] as $value) { ?>
-<p class='article'>
-<b class="large"><a href="<?php echo $value["link"]; ?>" target="_blank"><?php echo $value["title"]; ?></a></b>
- <a href="<?php echo "http://b.hatena.ne.jp/entry/".$value["link"]; ?>" target="_blank"><span class='num'><?php echo $value["bookmarkcount"]; ?></span></a><br />
-<?php echo $value["description"]; ?>
-<span class="x-small"> <?php echo $value["date"]; ?></span>
-</p>
-<?php } ?>
-</div>
-</div>
-
-<input type="hidden" id="state_<?php echo $page; ?>" value="0">
-<input type="hidden" id="code_<?php echo $page; ?>" value="<?php echo $key; ?>">
-<?php } ?>
-
 <div id="footer">
-<p class="hidden">&copy;tiger4th.com</p>
+<p class="hidden">&copy;ChatGPT部新聞</p>
 </div>
 </div>
 

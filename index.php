@@ -28,34 +28,6 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<!-- top bar -->
-<div class="<?php if($device==='sp'){ ?>sp-<?php } ?>top-bar">
-<nav id="nav-button">
-<a id="link-top" class="current" href="#top" onclick="current('top');rotate('top');">トップ</a>
-<?php foreach ($list as $key => $val) { ?>
-<a id="link-<?php echo $val; ?>" href="#<?php echo $val; ?>" onclick="current('<?php echo $val; ?>');rotate('<?php echo $val; ?>');"><?php echo $name[$key]; ?></a>
-<?php } ?>
-</nav>
-</div>
-<!-- /top bar -->
-
-<?php if($device==='sp'){ ?>
-<!-- sp bottom bar -->
-<div class="sp-bottom-bar">
-<input type="hidden" id="vertical" value="1">
-<table>
-<tr>
-<td><a href="javascript:void(0);" onclick="rotate('button');return false;"><img src="./image/lotate.gif"></a></td>
-<td><a href="http://b.hatena.ne.jp/entry/http://tiger4th.com/hatebu/" class="hatena-bookmark-button" data-hatena-bookmark-title="hatebu" data-hatena-bookmark-layout="standard" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script></td>
-<td>&nbsp;</td>
-<td><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-lang="ja">ツイート</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></td>
-<td><div class="fb-like" data-href="http://tiger4th.com/hatebu/" data-send="false" data-layout="button_count" data-width="120" data-show-faces="false"></div></td>
-</tr>
-</table>
-</div>
-<!-- /sp bottom bar -->
-<?php } ?>
-
 <!-- top -->
 <div id="top" class="panel">
 <?php $page="top"; ?>
@@ -63,16 +35,6 @@
 </div>
 <!-- /top -->
 
-<!-- page -->
-<?php foreach ($list as $key => $val) { ?>
-<div id="<?php echo $val; ?>" class="panel">
-<?php $page=$val; ?>
-<?php require("./paper.php"); ?>
-</div>
-<?php } ?>
-<!-- /page -->
-
-<?php if($device!=='sp'){ ?>
 <!-- bottom bar -->
 <div class="bottom-bar">
 <input type="hidden" id="vertical" value="1">
@@ -91,7 +53,6 @@
 </table>
 </div>
 <!-- /bottom bar -->
-<?php } ?>
 
 </body>
 </html>
