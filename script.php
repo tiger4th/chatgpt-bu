@@ -1,4 +1,4 @@
-<script type="text/javascript" src="./js/h2v.js" charset="utf-8"></script>
+<script type="text/javascript" src="./js/h2v-min.js" charset="utf-8"></script>
 <script type="text/javascript">
 var params ={
 'rotate_0' :{'fontsize':'14px','pagewidth':'800px','chars':25,'lineInterval':0.3,'auto':false,'recovery':true,'showcredit':false,'bar':false,},
