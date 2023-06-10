@@ -9,7 +9,7 @@ $day = ['日', '月', '火', '水', '木', '金', '土'];
 foreach ($list as $category) {
   $xml = file_get_contents('https://note.com/chatgpt_nobdata/rss?fbclid=IwAR2oayu5iQXct8TrRGz8xh4_Jk2JgVr8OpjI5_Z72xkO_ma6xyICyDi1oMk');
   $feed = simplexml_load_string($xml);
-  for ($i = 0; $i < 15; $i++) {
+  for ($i = 0; $i < 12; $i++) {
     $title = $feed->channel->item[$i]->title;
     $description = $feed->channel->item[$i]->description;
     $text[$category][$i]['title'] = mb_convert_kana($title, "A", "UTF-8");
