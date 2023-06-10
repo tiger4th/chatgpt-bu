@@ -4,14 +4,13 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>はてぶ新聞</title>
-<meta name="description" content="はてなブックマークの人気エントリーを新聞のように読むことができます。" />
-<meta name="keywords" content="はてな,はてなブックマーク,はてブ,はてぶ,新聞,ニュース" />
+<title>チャットGPT部新聞</title>
+<meta name="description" content="謎のデータサイエンティスト集団 NOB DATAが、これからの時代に必須となるChatGPTを中心とした生成AI活用術を徹底解説！" />
+<meta name="keywords" content="チャットGPT部,チャットGPT,ChatGPT,AI,新聞,ニュース,NOB DATA" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
-<link rel="shortcut icon" href="./image/favicon.ico">
+<link rel="shortcut icon" href="./image/favicon.png">
 <link rel="stylesheet" type="text/css" href="./css/h2v.css">
 <link rel="stylesheet" type="text/css" href="./css/style.css">
-<link rel="apple-touch-icon-precomposed" href="./image/apple-touch-icon.gif" />
 <?php if($device==='sp'){ ?><link rel="stylesheet" type="text/css" href="./css/style_sp.css"><?php } ?>
 <?php if($device==='tb'){ ?><link rel="stylesheet" type="text/css" href="./css/style_tb.css"><?php } ?>
 <?php require("./script.php"); ?>
