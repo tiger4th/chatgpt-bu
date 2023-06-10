@@ -12,7 +12,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:title" content="チャットGPT部新聞" />
   <meta property="og:description" content="謎のデータサイエンティスト集団 NOB DATAが、これからの時代に必須となるChatGPTを中心とした生成AI活用術を徹底解説！" />
-  <meta property="og:image" content="./image/og.jpg" />
+  <meta property="og:image" content="https://tiger4th.com/chatgpt-bu/image/og.jpg" />
   <link rel="shortcut icon" href="./image/favicon.png">
   <link rel="stylesheet" type="text/css" href="./css/h2v.css">
   <link rel="stylesheet" type="text/css" href="./css/style.css">
