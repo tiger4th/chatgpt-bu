@@ -11,8 +11,6 @@
 <link rel="shortcut icon" href="./image/favicon.png">
 <link rel="stylesheet" type="text/css" href="./css/h2v.css">
 <link rel="stylesheet" type="text/css" href="./css/style.css">
-<?php if($device==='sp'){ ?><link rel="stylesheet" type="text/css" href="./css/style_sp.css"><?php } ?>
-<?php if($device==='tb'){ ?><link rel="stylesheet" type="text/css" href="./css/style_tb.css"><?php } ?>
 <?php require("./script.php"); ?>
 <?php require("./js/addthis.js"); ?>
 </head>

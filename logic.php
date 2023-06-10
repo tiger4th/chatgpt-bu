@@ -1,15 +1,6 @@
 <?php
 ini_set('display_errors', 0);
 
-$ua = $_SERVER['HTTP_USER_AGENT'];
-if ((strpos($ua, 'iPhone') !== false) || (strpos($ua, 'iPod') !== false) || (strpos($ua, 'Android') !== false)) {
-  $device = 'sp';
-} elseif ((strpos($ua, 'iPad') !== false)) {
-  $device = 'tb';
-} else {
-  $device = 'pc';
-}
-
 $list = ['all'];
 $name = ['記事'];
 $long_name = ['記事'];
