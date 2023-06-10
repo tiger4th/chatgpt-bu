@@ -18,3 +18,5 @@ foreach ($list as $category) {
     $text[$category][$i]['date'] = mb_convert_kana(date('n月j日 G時i分', strtotime($feed->channel->item[$i]->pubDate)), "A", "UTF-8");
   }
 }
+
+$wiki = 'https://ja.wikipedia.org/wiki/' . date("n月j日");
