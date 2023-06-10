@@ -2,16 +2,15 @@
 
 <div id="header">
 <p class="x-small">
-<span class="bold"><?php if($page=='top'){echo '1';}else{echo $key+2;} ?></span>　　
 令和<?php echo (date("Y")-2018); ?>年（<?php echo date("Y年");?>）<?php echo date("n月j日"); ?>　<?php echo $day[date("w")]; ?>曜日
-　　　　　　　　　は　　　て　　　ぶ　　　新　　　聞
+　　　　　　　　　チ　　ャ　　ッ　　ト　　Ｇ　　Ｐ　　Ｔ　　部　　新　　聞
 </p>
 </div>
 
 <div id="box">
 
 <div id="right">
-<h1><img src="./image/logo.gif" alt="はてぶ新聞"></h1>
+<h1><img src="./image/logo.jpg" alt="チャットGPT部新聞" width="160" height="411"></h1>
 <br /><br />
 <?php if(isset($date)){ ?><a href="<?php echo $wiki; ?>" target="_blank"><?php } ?>
 <p>令和<?php echo (date("Y")-2018); ?>年（<?php echo date("Y年");?>）</p>
@@ -21,7 +20,7 @@
 <?php if(isset($date)){ ?></a><?php } ?>
 <br />
 <br />
-<iframe src="https://www.sunny-spot.net/get_fcst/parts_fcst.php?ID=4410&CL=BLACK" width="160" height="360" hspace="0" vspace="0" marginheight="0" marginwidth="0" frameborder="0" scrolling=no></iframe>
+<iframe src="https://www.sunny-spot.net/get_fcst/parts_fcst.php?ID=4410&CL=BLACK" width="160" height="370" hspace="0" vspace="0" marginheight="0" marginwidth="0" frameborder="0" scrolling=no></iframe>
 </div>
 
 <div id="left">
