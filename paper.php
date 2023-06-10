@@ -20,6 +20,21 @@
 <?php if(isset($date)){ ?></a><?php } ?>
 </div>
 <iframe src="https://www.sunny-spot.net/get_fcst/parts_fcst.php?ID=4410&CL=BLACK" width="160" height="370" hspace="0" vspace="0" marginheight="0" marginwidth="0" frameborder="0" scrolling=no></iframe>
+
+<br><br>
+<div>
+<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-url="https://tiger4th.com/chatgpt-bu/" data-lang="ja" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<br><br>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v17.0" nonce="4VUSVEWq"></script>
+<div class="fb-like" data-href="https://tiger4th.com/chatgpt-bu/" data-width="" data-layout="button_count" data-action="" data-size="" data-share="false"></div>
+<br><br>
+<a href="https://b.hatena.ne.jp/entry/s/tiger4th.com/chatgpt-bu/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label-counter" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a>
+<script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+<br><br>
+<input type="hidden" id="vertical" value="1">
+<a href="javascript:void(0);" onclick="rotate('button');return false;"><img src="./image/lotate.gif"></a>
+</div>
 </div>
 
 <div id="left">
