@@ -33,7 +33,7 @@
 <script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
 <br><br>
 <input type="hidden" id="vertical" value="1">
-<a href="javascript:void(0);" onclick="rotate('button');return false;"><img src="./image/lotate.gif"></a>
+<a href="javascript:void(0);" onclick="rotate();return false;"><img src="./image/lotate.gif"></a>
 </div>
 </div>
 
