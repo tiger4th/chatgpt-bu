@@ -12,7 +12,6 @@
   <link rel="stylesheet" type="text/css" href="./css/h2v.css">
   <link rel="stylesheet" type="text/css" href="./css/style.css">
   <?php require("./script.php"); ?>
-  <?php require("./js/addthis.js"); ?>
 </head>
 
 <body onLoad="location.href='#top';">
