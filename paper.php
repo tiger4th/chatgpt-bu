@@ -11,15 +11,14 @@
 
 <div id="right">
 <h1><img src="./image/logo.jpg" alt="チャットGPT部新聞" width="160" height="411"></h1>
-<br /><br />
+<div class="date">
 <?php if(isset($date)){ ?><a href="<?php echo $wiki; ?>" target="_blank"><?php } ?>
 <p>令和<?php echo (date("Y")-2018); ?>年（<?php echo date("Y年");?>）</p>
 <p class="bold"><span class="xx-large"><?php echo date("n"); ?></span><span class="large">月</span> <span class="xx-large"><?php echo date("j"); ?></span><span class="large">日</span></p>
 <p class="large bold"><?php echo $day[date("w")]; ?>曜日</p>
 <p><?php if(isset($date)){ ?><?php echo $date; ?><?php } ?></p>
 <?php if(isset($date)){ ?></a><?php } ?>
-<br />
-<br />
+</div>
 <iframe src="https://www.sunny-spot.net/get_fcst/parts_fcst.php?ID=4410&CL=BLACK" width="160" height="370" hspace="0" vspace="0" marginheight="0" marginwidth="0" frameborder="0" scrolling=no></iframe>
 </div>
 
