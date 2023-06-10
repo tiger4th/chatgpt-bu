@@ -129,6 +129,7 @@ div#paper{
 background-color:#eeeeee;
 width:800px;
 margin:3em auto 3em auto;
+padding: 1px;
 }
 
 div#container{
@@ -137,7 +138,7 @@ margin-top:1em;
 }
 
 div#header{
-margin:1em 1em 0 1em;
+margin:1px 1em 0 1em;
 }
 
 div#footer{
