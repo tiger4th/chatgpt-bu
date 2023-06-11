@@ -8,10 +8,12 @@ $day = ['日', '月', '火', '水', '木', '金', '土'];
 
 $source = 'https://note.com/chatgpt_nobdata/rss?fbclid=IwAR2oayu5iQXct8TrRGz8xh4_Jk2JgVr8OpjI5_Z72xkO_ma6xyICyDi1oMk';
 $list_num = 12;
+$chars = 25;
 
 if (isset($_GET['source'])) {
   $source = './xml/' . $_GET['source'] . '.xml';
-  $list_num = 8;
+  $list_num = 7;
+  $chars = 22;
   $is_print = true;
 }
 

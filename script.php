@@ -1,9 +1,9 @@
 <script type="text/javascript" src="./js/h2v-min.js" charset="utf-8"></script>
 <script type="text/javascript">
   var params = {
-    'rotate_99':{
+    'rotate_99': {
       'fontsize': '14px',
-      'chars': 25,
+      'chars': <?php echo $chars; ?>,
       'lineInterval': 0.3,
       'pagewidth': '800px',
       'fontSet': 'mincho',

@@ -1,4 +1,4 @@
-<div id="paper" class="shadow">
+<div id="paper" class="<?php echo $is_print ? '' : 'shadow'; ?>">
   <div id="header">
     <p class="x-small">
       令和<?php echo date("Y") - 2018; ?>年（<?php echo date("Y年"); ?>）<?php echo date("n月j日"); ?>　<?php echo $day[date("w")]; ?>曜日
@@ -39,7 +39,7 @@
           <script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
         </div>
       <?php endif; ?>
-      
+
       <br><br>
       <input type="hidden" id="vertical" value="1">
       <a href="javascript:;" onclick="rotate(); return false;"><img src="./image/lotate.gif" width="80" height="20" class="lotate"></a>
