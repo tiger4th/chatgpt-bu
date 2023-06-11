@@ -16,7 +16,7 @@
   <meta name="twitter:card" content="summary_large_image" />
   <link rel="shortcut icon" href="./image/favicon.png">
   <link rel="stylesheet" type="text/css" href="./css/h2v.css">
-  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css?v=20230611">
   <?php require("./script.php"); ?>
 </head>
 

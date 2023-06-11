@@ -104,6 +104,10 @@ a:visited {
   opacity: .5;
 }
 
+.qr:hover {
+  opacity: .5;
+}
+
 .lotate:hover {
   opacity: .5;
 }

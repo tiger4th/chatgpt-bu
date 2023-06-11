@@ -19,9 +19,13 @@
       </div>
 
       <?php if ($is_print): ?>
-        <img src="./image/qr_hp.png" alt="チャットGPT部新聞" width="160" height="160">
+        <a href="https://tiger4th.com/chatgpt-bu/">
+          <img src="./image/qr_hp.png" alt="チャットGPT部新聞" width="160" height="160" class="qr">
+        </a>
         <br><br>
-        <img src="./image/qr_note.png" alt="ChatGPT部" width="160" height="160">
+        <a href="https://note.com/chatgpt_nobdata/" target="_blank">
+          <img src="./image/qr_note.png" alt="ChatGPT部" width="160" height="160" class="qr">
+        </a>
       <?php else: ?>
         <iframe src="https://www.sunny-spot.net/get_fcst/parts_fcst.php?ID=4410&CL=BLACK" width="160" height="370" hspace="0" vspace="0" marginheight="0" marginwidth="0" frameborder="0" scrolling=no></iframe>
         <br><br>
