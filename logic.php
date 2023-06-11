@@ -7,14 +7,19 @@ $long_name = ['記事'];
 $day = ['日', '月', '火', '水', '木', '金', '土'];
 
 $source = 'https://note.com/chatgpt_nobdata/rss?fbclid=IwAR2oayu5iQXct8TrRGz8xh4_Jk2JgVr8OpjI5_Z72xkO_ma6xyICyDi1oMk';
+$list_num = 12;
+
 if (isset($_GET['source'])) {
   $source = './xml/' . $_GET['source'] . '.xml';
+  $list_num = 8;
+  $is_print = true;
 }
+
 
 foreach ($list as $category) {
   $xml = file_get_contents($source);
   $feed = simplexml_load_string($xml);
-  for ($i = 0; $i < 12; $i++) {
+  for ($i = 0; $i < $list_num; $i++) {
     $title = $feed->channel->item[$i]->title;
     $description = $feed->channel->item[$i]->description;
     $text[$category][$i]['title'] = mb_convert_kana($title, "A", "UTF-8");

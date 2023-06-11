@@ -6,8 +6,8 @@
       <description>こんにちは、ChatGPT部、部長の大城です。指折り数えて待っていたChatGPTのプラグイン機能がようやく私のところにも届きましたので、そちらの使い方と簡単な利用例について記載したいと思います。
 </description>
       <likeCount>210</likeCount>
-      <publishAt>2023-05-17T12:43:08+09:00</publishAt>
-      <noteUrl>https://note.com/chatgpt_nobdata/n/n64bc5630ac91</noteUrl>
+      <pubDate>2023-05-17T12:43:08+09:00</pubDate>
+      <link>https://note.com/chatgpt_nobdata/n/n64bc5630ac91</link>
     </item>
     <item>
       <title>【10分で探せる】ChatGPTのプラグインやWeb検索機能を使えばまだ知らない補助金の発掘も早くなるのでは？というアイディアメモ第２弾(ChatGPT部, 大城)</title>
@@ -17,19 +17,17 @@
 
 </description>
       <likeCount>18</likeCount>
-      <publishAt>2023-05-22T13:49:10+09:00</publishAt>
-      <noteUrl>https://note.com/chatgpt_nobdata/n/n37bc7c304a56</noteUrl>
+      <pubDate>2023-05-22T13:49:10+09:00</pubDate>
+      <link>https://note.com/chatgpt_nobdata/n/n37bc7c304a56</link>
     </item>
     <item>
       <title>Python入門者必見‼プログラミング初心者による初心者のためのPython入門</title>
       <description>こんにちは！シリーズ化大好きGPT部の原田です！今回は、ChatGPTを使って、プログラミング初心者による初心者のためのPython入門書？を作っていこうと思います！Pythonにした理由は、僕の独断と偏見で、一番面白そうで、理解しやすそう？だったからです！（笑）
 
-第0弾は、どういうカリキュラムで進めていくのか、作成時GPTへ投げたプロンプトなどをご紹介します。いわゆるオリエンテーションです！
-
-1. プログラミング学習の必要性作りたいものを「作って！」といえば作ってくれる</description>
+第0弾は、どういうカリキュラムで進めていくのか、作成時GPTへ投げたプロンプトなどをご紹介します。いわゆるオリエンテーションです！</description>
       <likeCount>14</likeCount>
-      <publishAt>2023-05-31T08:06:38+09:00</publishAt>
-      <noteUrl>https://note.com/chatgpt_nobdata/n/n63d730f93f44</noteUrl>
+      <pubDate>2023-05-31T08:06:38+09:00</pubDate>
+      <link>https://note.com/chatgpt_nobdata/n/n63d730f93f44</link>
     </item>
     <item>
       <title>googleの画像解析機能とChatGPTで写真のタイトルを考えてもらう(ChatGPT部, 大城)</title>
@@ -37,23 +35,20 @@
 
 私は常々ChatGPTの画像解析APIが公開したら世の中変わるのでは、と思っているのですが、その前にGoogleのVision AIがすでに結構すごかったので、先日撮影した写真をGoogleのAIで解析して、そのテキストを元にChatGPTにタイトルをつけてもらう実験をしてみようと思います。
 
-対象の写真とGoogle Vision AIの紹介先日、福岡で開催されてたボルドーワインの会ですね。
-( </description>
+対象の写真とGoogle Vision AIの紹介先日、福岡で開催されてたボルドーワインの会ですね。</description>
       <likeCount>10</likeCount>
-      <publishAt>2023-05-23T08:59:50+09:00</publishAt>
-      <noteUrl>https://note.com/chatgpt_nobdata/n/ne542f2011f87</noteUrl>
+      <pubDate>2023-05-23T08:59:50+09:00</pubDate>
+      <link>https://note.com/chatgpt_nobdata/n/ne542f2011f87</link>
     </item>
     <item>
       <title>AI法研究会のセミナー「ChatGPTと生成AIに関する法的倫理的課題」を視聴しての感想など(ChatGPT部, 大城)</title>
       <description>こんにちは、ChatGPT部(チャットGPT部)、部長の大城です。
 ChatGPT部の活動の中でも「AIと著作権」や「AIと倫理」については定期的に話題に上がるのですが、そんな中とても面白そうな無料ウェビナーがありましたので視聴してきました。
 
-所感としましては「まだまだ法的・倫理的に議論するテーマは非常に多く、過渡期」「その中で、安全策としていくつか守るべきポイント」という部分がお伺いできたかなと思います。
-
-あと弁護士の先生方の議論に入る前の、最初の30分のABEJA社・</description>
+所感としましては「まだまだ法的・倫理的に議論するテーマは非常に多く、過渡期」「その中で、安全策としていくつか守るべきポイント」という部分がお伺いできたかなと思います。</description>
       <likeCount>10</likeCount>
-      <publishAt>2023-05-29T22:07:23+09:00</publishAt>
-      <noteUrl>https://note.com/chatgpt_nobdata/n/nb5b2f29fbc90</noteUrl>
+      <pubDate>2023-05-29T22:07:23+09:00</pubDate>
+      <link>https://note.com/chatgpt_nobdata/n/nb5b2f29fbc90</link>
     </item>
     <item>
       <title>ChatGPTに侍ジャパン大谷選手の打撃成績を名前を伏せて評価させてみた</title>
@@ -62,35 +57,27 @@ ChatGPT部の活動の中でも「AIと著作権」や「AIと倫理」につい
 
 この記事では、WBCに日本代表で出場し優勝の立役者となった大谷翔平選手の打撃成績を大谷翔平選手の名前を伏せてChat GPTに評価させると、どのような評価になるのか試してみました！
 
-また、理想の打順や改善点、打ち取り方を聞いて、その結果と実際の結果があっているのか比較してみました！　こちらが大谷選手の打撃成績になります。（強化試合のオリックス戦と阪神戦も含まれてい</description>
+また、理想の打順や改善点、打ち取り方を聞いて、その結果と実際の結果があっているのか比較してみました！　こちらが大谷選手の打撃成績になります。</description>
       <likeCount>7</likeCount>
-      <publishAt>2023-05-27T10:01:18+09:00</publishAt>
-      <noteUrl>https://note.com/chatgpt_nobdata/n/n61ed1106a7b7</noteUrl>
+      <pubDate>2023-05-27T10:01:18+09:00</pubDate>
+      <link>https://note.com/chatgpt_nobdata/n/n61ed1106a7b7</link>
     </item>
     <item>
       <title>【世界】の「ChatGPT」ニュースまとめ20230601（43記事）</title>
       <description>こんにちは、ChatGPT部のNEWSまとめ担当です。　ChatGPT 世界的に盛り上がってますね。
-ここではgoogle alertで日々収集したChatGPT関連の英語ニュースをＡＩによってランキングし、トップ３を要約しました。
-
-◼AIが選ぶ6/1記事Top3”AIが選ぶ”世界のChatGPTニュース記事トップ３をお送りします！
-
-※ Googleアラートで「ChatGPT」をキーワードにニュース記事をピックアップ、ChatGPTとは別のＡＩでランキングしました
-※ 記</description>
+ここではgoogle alertで日々収集したChatGPT関連の英語ニュースをＡＩによってランキングし、トップ３を要約しました。</description>
       <likeCount>6</likeCount>
-      <publishAt>2023-06-02T00:19:56+09:00</publishAt>
-      <noteUrl>https://note.com/chatgpt_nobdata/n/n975b39a33d03</noteUrl>
+      <pubDate>2023-06-02T00:19:56+09:00</pubDate>
+      <link>https://note.com/chatgpt_nobdata/n/n975b39a33d03</link>
     </item>
     <item>
       <title>LangChainでChatBotの会話履歴をまとめて扱いたい！</title>
       <description>こんにちは！はじめまして！　ChatGPT部、高嶺です。
 
-現在、GPT系のLLMを用いてChatBotを作っています。ここで困るのが会話履歴の扱いについてです！全部保持できればいいのですが、会話履歴には冗長な単語も含まれていてcontextの枠を圧迫しがちですし、何よりAPIに投げる文章が長くなればなるほどtokenを消費するのでコストがかかってしまいます…
-また、現在開発中のBotでは会話履歴を過去k回までと制限していて、長い文脈に対応できない状況があります。
-
-そんな悩</description>
+現在、GPT系のLLMを用いてChatBotを作っています。ここで困るのが会話履歴の扱いについてです！</description>
       <likeCount>4</likeCount>
-      <publishAt>2023-05-30T09:26:50+09:00</publishAt>
-      <noteUrl>https://note.com/chatgpt_nobdata/n/nff6fec9604d4</noteUrl>
+      <pubDate>2023-05-30T09:26:50+09:00</pubDate>
+      <link>https://note.com/chatgpt_nobdata/n/nff6fec9604d4</link>
     </item>
     <item>
       <title>日曜日なので今後の調査したいことに関してのアイディア整理メモ(ChatGPT部, 大城)</title>
@@ -99,25 +86,18 @@ ChatGPT部の活動の中でも「AIと著作権」や「AIと倫理」につい
 
 プラグイン関係DBアクセスをうまく使った処理の深掘りの余地
 
-こちら、先日少しご紹介させていただいたChatGPTからnotebook経由でプログラムを動かせる、「noteableプラグイン」にある「DB接続」に関してです。
-
-これができると、
-・ChatGPTにDB構造を与えて、SQLを作成、データを引用
-は手始めとして、
-・収集したデータ群のサマリ、分</description>
+こちら、先日少しご紹介させていただいたChatGPTからnotebook経由でプログラムを動かせる、「noteableプラグイン」にある「DB接続」に関してです。</description>
       <likeCount>4</likeCount>
-      <publishAt>2023-06-04T16:25:09+09:00</publishAt>
-      <noteUrl>https://note.com/chatgpt_nobdata/n/n275db7dd6ceb</noteUrl>
+      <pubDate>2023-06-04T16:25:09+09:00</pubDate>
+      <link>https://note.com/chatgpt_nobdata/n/n275db7dd6ceb</link>
     </item>
     <item>
       <title>[PR] ChatGPTに関するNOB DATAのモチベーションと最近の動きのご共有 (5月30日, ChatGPT部, 大城)</title>
       <description>こんばんは、ChatGPT部(チャットGPT部)、部長の大城です。
-ちょっと今日はDS協会関係のイベントもありましたが、そちらはセミクローズドな会でしたので、取り急ぎはそちらの感想を含めつつ、メインは本業のNOB DATAに関する情報となります(PRも多めなので、ご興味のない方は読み飛ばしていただいて大丈夫ですmm)
-
-今回は前述のイベントへの参加の感想を交えつつ、ChatGPTのロボ２体、あと6/14-16で予定している幕張メッセの展示会での出典についてのアナウンスがメイン</description>
+ちょっと今日はDS協会関係のイベントもありましたが、そちらはセミクローズドな会でしたので、取り急ぎはそちらの感想を含めつつ、メインは本業のNOB DATAに関する情報となります(PRも多めなので、ご興味のない方は読み飛ばしていただいて大丈夫ですmm)</description>
       <likeCount>3</likeCount>
-      <publishAt>2023-05-30T23:05:17+09:00</publishAt>
-      <noteUrl>https://note.com/chatgpt_nobdata/n/n66818f5264c1</noteUrl>
+      <pubDate>2023-05-30T23:05:17+09:00</pubDate>
+      <link>https://note.com/chatgpt_nobdata/n/n66818f5264c1</link>
     </item>
   </channel>
 </rss>
